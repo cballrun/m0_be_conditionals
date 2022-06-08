@@ -67,19 +67,32 @@ puts "Is number_students less than or equal to 20?", number_students <= 20
 puts 4 < 9
 #YOU DO: Explain.
 
+#This code is printing the output of conditional with a comparison operator of less than asking if the integer four is less than the integer 9. The output will be true.
+
 books = 3
 puts 4 < books
 # YOU DO: Explain.
+
+#This code first defined the variable books as the integer 3. It is then printing the output of a conditional
+# asking if 4 is less than the value of the variable books. The output will be false.
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
 
+#This code first defines the variable friends as the integer 6. It then defines the variable siblings as the integer 2.
+#The code then prints the output of a conditional using a greater than as a comparison operator asking if the number of
+#friends is greater than the number of siblings. The output will be true.
+
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
+
+#This code first defines the variable attendees as the integer 9 and then defines the variable meals as the integer 8.
+#It then prints the output of a conditional using an is not equal to opoerator asking if the number of attendees is
+#not equal to the number of meals. The output will be true.
 
 
 #-------------------
@@ -103,14 +116,21 @@ age = 1
 # YOU DO:
 # Determine if the dog loves to play and loves treats
 
+loves_to_play && loves_treats
+
 
 # Determine if the dog loves to play and loves the dog park
 
+loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
 
+loves_to_play || loves_dog_park
+
 
 # Determine if the dog loves to play and is a puppy
+
+loves_to_play && age = 1
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
 # ANSWER:
