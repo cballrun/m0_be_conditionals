@@ -133,4 +133,5 @@ loves_to_play || loves_dog_park
 loves_to_play && age = 1
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: It evaluated to true since I put a defined variable in the section. Age = 1 is already defined so it returned a true value.
+#I think you would have to define what a puppy is with an if statement to determine what a puppy is. 
