@@ -68,8 +68,8 @@ end
 
 
 
-cups_of_flour = 1
-has_sauce = true
+cups_of_flour = 5
+has_sauce = false
 
 if cups_of_flour = 1 && has_sauce = true
   puts "I cannot make pizza"
