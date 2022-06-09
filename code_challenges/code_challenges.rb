@@ -5,7 +5,7 @@
 #- If the user either has a good record or is over 25 years old, they should pay full price
 #- If the user is not over 25 and has a bad driving record, they need to have someone else sign for the rental
 
-good_driving_record = true
+good_driving_record = false
 is_over_25 = true
 
 if good_driving_record == true && is_over_25 == true
